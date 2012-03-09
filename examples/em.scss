@@ -1,0 +1,35 @@
+$column: 3.5em;
+$gutter: 1em;
+
+@import "../sce.scss";
+
+$colnum: 12;
+
+.scs-wrapper {
+  width: nth($colwrap, $colnum);
+}
+
+@for $i from 1 through $colnum {
+  .scs-#{$i} {
+    float: left;
+    margin-left: $gap;
+    margin-right: $gap;
+    width: nth($colspan, $i);
+  }
+}
+
+body {
+  font-size: 87.5%;
+
+  @media screen and (min-width: 45em) {
+    font-size: 100%;
+  }
+
+  @media screen and (min-width: 75em) {
+    font-size: 112.5%;
+  }
+
+  @media screen and (min-width: 105em) {
+    font-size: 131.25%;
+  }
+}

@@ -1,0 +1,40 @@
+// SCSS Column Eqaution | http://hail2u.mit-license.org/2012
+$column: 60px !default;
+$gutter: ($column / 3) !default;
+$gap:    ($gutter / 2);
+
+$colspan1:  ($column + $gutter) *  1 - $gutter;
+$colspan2:  ($column + $gutter) *  2 - $gutter;
+$colspan3:  ($column + $gutter) *  3 - $gutter;
+$colspan4:  ($column + $gutter) *  4 - $gutter;
+$colspan5:  ($column + $gutter) *  5 - $gutter;
+$colspan6:  ($column + $gutter) *  6 - $gutter;
+$colspan7:  ($column + $gutter) *  7 - $gutter;
+$colspan8:  ($column + $gutter) *  8 - $gutter;
+$colspan9:  ($column + $gutter) *  9 - $gutter;
+$colspan10: ($column + $gutter) * 10 - $gutter;
+$colspan11: ($column + $gutter) * 11 - $gutter;
+$colspan12: ($column + $gutter) * 12 - $gutter;
+$colspan13: ($column + $gutter) * 13 - $gutter;
+$colspan14: ($column + $gutter) * 14 - $gutter;
+$colspan15: ($column + $gutter) * 15 - $gutter;
+$colspan16: ($column + $gutter) * 16 - $gutter;
+$colspan: $colspan1 $colspan2 $colspan3 $colspan4 $colspan5 $colspan6 $colspan7 $colspan8 $colspan9 $colspan10 $colspan11 $colspan12 $colspan13 $colspan14 $colspan15 $colspan16; 
+
+$colwrap1:  ($gap + $colspan1  + $gap);
+$colwrap2:  ($gap + $colspan2  + $gap);
+$colwrap3:  ($gap + $colspan3  + $gap);
+$colwrap4:  ($gap + $colspan4  + $gap);
+$colwrap5:  ($gap + $colspan5  + $gap);
+$colwrap6:  ($gap + $colspan6  + $gap);
+$colwrap7:  ($gap + $colspan7  + $gap);
+$colwrap8:  ($gap + $colspan8  + $gap);
+$colwrap9:  ($gap + $colspan9  + $gap);
+$colwrap10: ($gap + $colspan10 + $gap);
+$colwrap11: ($gap + $colspan11 + $gap);
+$colwrap12: ($gap + $colspan12 + $gap);
+$colwrap13: ($gap + $colspan13 + $gap);
+$colwrap14: ($gap + $colspan14 + $gap);
+$colwrap15: ($gap + $colspan15 + $gap);
+$colwrap16: ($gap + $colspan16 + $gap);
+$colwrap: $colwrap1 $colwrap2 $colwrap3 $colwrap4 $colwrap5 $colwrap6 $colwrap7 $colwrap8 $colwrap9 $colwrap10 $colwrap11 $colwrap12 $colwrap13 $colwrap14 $colwrap15 $colwrap16; 
