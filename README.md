@@ -25,8 +25,10 @@ USAGE
 *Note*: `$colspan` and `$colwrap` are lists. These values can be accessed with `nth()` function.
 
 
-EXAPMLES
+EXAMPLES
 --------
+
+Preview these examples at once: http://hail2u.github.com/scss-column-equation/
 
 
 ### Default
