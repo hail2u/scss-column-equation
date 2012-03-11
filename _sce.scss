@@ -3,10 +3,10 @@ $column: 60px !default;
 $gutter: ($column / 3) !default;
 $gap:    ($gutter / 2);
 
-$colspan: $column;
-$colwrap: ($gap + $column + $gap);
+$colspan: ();
+$colwrap: ();
 
-@for $i from 2 through 16 {
+@for $i from 1 through 16 {
   $w: (($column + $gutter) * $i - $gutter);
   $colspan: append($colspan, $w);
   $colwrap: append($colwrap, ($gap + $w + $gap));
