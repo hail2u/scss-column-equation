@@ -26,8 +26,8 @@ h1 {
   margin-right: auto;
   zoom: 1;
 
-  &::before,
-  &::after {
+  &:before,
+  &:after {
     content: "";
     display: table;
   }
@@ -37,7 +37,7 @@ h1 {
   }
 }
 
-.column{
+.column {
   margin-top: 1em;
   margin-bottom: 1em;
   background-color: #39c;
@@ -58,12 +58,12 @@ $colnum: 12;
 
 .default {
 
-  .scs-wrapper {
+  .sce-wrapper {
     width: nth($colwrap, $colnum);
   }
 
   @for $i from 1 through $colnum {
-    .scs-#{$i} {
+    .sce-#{$i} {
       float: left;
       margin-left: $gap;
       margin-right: $gap;
@@ -82,12 +82,12 @@ $gutter: 1em;
 $colnum: 12;
 
 .em {
-  .scs-wrapper {
+  .sce-wrapper {
     width: nth($colwrap, $colnum);
   }
 
   @for $i from 1 through $colnum {
-    .scs-#{$i} {
+    .sce-#{$i} {
       float: left;
       margin-left: $gap;
       margin-right: $gap;
@@ -106,12 +106,12 @@ $gutter: 2%;
 $colnum: 16;
 
 .percentage {
-  .scs-wrapper {
+  .sce-wrapper {
     width: nth($colwrap, $colnum);
   }
 
   @for $i from 1 through $colnum {
-    .scs-#{$i} {
+    .sce-#{$i} {
       float: left;
       margin-left: $gap;
       margin-right: $gap;
