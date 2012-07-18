@@ -2,12 +2,12 @@
 
 $colnum: 12;
 
-.scs-wrapper {
+.sce-wrapper {
   width: nth($colwrap, $colnum);
 }
 
 @for $i from 1 through $colnum {
-  .scs-#{$i} {
+  .sce-#{$i} {
     float: left;
     margin-left: $gap;
     margin-right: $gap;

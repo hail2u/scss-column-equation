@@ -5,12 +5,12 @@ $gutter: 2%;
 
 $colnum: 16;
 
-.scs-wrapper {
+.sce-wrapper {
   width: nth($colwrap, $colnum);
 }
 
 @for $i from 1 through $colnum {
-  .scs-#{$i} {
+  .sce-#{$i} {
     float: left;
     margin-left: $gap;
     margin-right: $gap;
