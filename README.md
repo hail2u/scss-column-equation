@@ -1,7 +1,7 @@
 SCSS Column Equation
 ====================
 
-Generate variables for creating CSS column definition, the [Sass](http://sass-lang.com/)y way.
+Generate variables for CSS column layout, the [Sass](http://sass-lang.com/)y way.
 
 
 USAGE
@@ -16,13 +16,13 @@ USAGE
 
   * `$column`:                  column width (configurable)
   * `$gutter`:                  space between columns (configurable)
-  * `$gap`:                     an half size of `$gutter` and very outer space of column 
+  * `$gap`:                     an half size of `$gutter` and very outer space of column
   * `$colspan1`...`$colspan16`: width of `n` columns
   * `$colspan`:                 list contains `$colspan1`...`$colspan16`
-  * `$colwrap1`...`$colwrap16`: wrapper width of `n` columns 
+  * `$colwrap1`...`$colwrap16`: wrapper width of `n` columns
   * `$colwrap`:                 list contains `$colwrap1`...`$colwrap16`
 
-*Note*: `$colspan` and `$colwrap` are lists. These values can be accessed with `nth()` function.
+*Note*: `$colspan` and `$colwrap` are lists. Their elements can be accessed with `nth()` function.
 
 
 EXAMPLES
@@ -37,7 +37,7 @@ This example generates default 12-column with `px` (similar to [960.gs](http://9
 
 ### EM
 
-This example generates fixed 12-column with `em`. 
+This example generates fixed 12-column with `em`.
 
 ### Percentage
 
