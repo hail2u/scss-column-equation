@@ -1,19 +1,19 @@
-$column: 4.25%;
-$gutter: 2%;
+$sce_column: 4.25%;
+$sce_gutter: 2%;
 
 @import "../sce.scss";
 
 $colnum: 16;
 
 .sce-wrapper {
-  width: nth($colwrap, $colnum);
+  width: nth($sce_colwrap, $colnum);
 }
 
 @for $i from 1 through $colnum {
   .sce-#{$i} {
     float: left;
-    margin-left: $gap;
-    margin-right: $gap;
-    width: nth($colspan, $i);
+    margin-left: $sce_gap;
+    margin-right: $sce_gap;
+    width: nth($sce_colspan, $i);
   }
 }

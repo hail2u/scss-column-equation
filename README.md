@@ -7,22 +7,22 @@ Generate variables for CSS column layout, the [Sass](http://sass-lang.com/)y way
 USAGE
 -----
 
-  1. Define basic variables: `$column` and `$gutter`
+  1. Define basic variables: `$sce_column` and `$sce_gutter`
   2. Import `sce.scss` via `@import`
   3. Create column definition with generated variables
 
 
 ### Variables
 
-  * `$column`:                  column width (configurable)
-  * `$gutter`:                  space between columns (configurable)
-  * `$gap`:                     an half size of `$gutter` and very outer space of column
-  * `$colspan1`...`$colspan16`: width of `n` columns
-  * `$colspan`:                 list contains `$colspan1`...`$colspan16`
-  * `$colwrap1`...`$colwrap16`: wrapper width of `n` columns
-  * `$colwrap`:                 list contains `$colwrap1`...`$colwrap16`
+  * `$sce_column`:                      column width (configurable)
+  * `$sce_gutter`:                      space between columns (configurable)
+  * `$sce_gap`:                         an half size of `$gutter` and very outer space of column
+  * `$sce_colspan1`...`$sce_colspan16`: width of `n` columns
+  * `$sce_colspan`:                     list contains `$colspan1`...`$colspan16`
+  * `$sce_colwrap1`...`$sce_colwrap16`: wrapper width of `n` columns
+  * `$sce_colwrap`:                     list contains `$colwrap1`...`$colwrap16`
 
-*Note*: `$colspan` and `$colwrap` are lists. Their elements can be accessed with `nth()` function.
+*Note*: `$sce_colspan` and `$sce_colwrap` are lists. Their elements can be accessed with `nth()` function.
 
 
 EXAMPLES

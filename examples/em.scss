@@ -1,20 +1,20 @@
-$column: 3.5em;
-$gutter: 1em;
+$sce_column: 3.5em;
+$sce_gutter: 1em;
 
 @import "../sce.scss";
 
 $colnum: 12;
 
 .sce-wrapper {
-  width: nth($colwrap, $colnum);
+  width: nth($sce_colwrap, $colnum);
 }
 
 @for $i from 1 through $colnum {
   .sce-#{$i} {
     float: left;
-    margin-left: $gap;
-    margin-right: $gap;
-    width: nth($colspan, $i);
+    margin-left: $sce_gap;
+    margin-right: $sce_gap;
+    width: nth($sce_colspan, $i);
   }
 }
 
