@@ -1,7 +1,17 @@
 SCSS Column Equation
 ====================
 
-Generate variables for CSS column layout, the [Sass](http://sass-lang.com/)y way.
+Generate variables for CSS column layout, the [Sass][1]y way.
+
+
+INSTALLATION
+------------
+
+Three options are available:
+
+  1. [Download package][2]
+  2. Clone with Git: $ git clone https://github.com/hail2u/scss-column-equation.git
+  3. Install with [Bower][3]: `$ bower install --save-dev scss-column-equation`
 
 
 USAGE
@@ -25,15 +35,15 @@ USAGE
 *Note*: `$sce_colspan` and `$sce_colwrap` are lists. Their elements can be accessed with `nth()` function.
 
 
-EXAMPLES
---------
+EXAMPLE
+-------
 
 Preview these examples at once: http://hail2u.github.com/scss-column-equation/
 
 
 ### Default
 
-This example generates default 12-column with `px` (similar to [960.gs](http://960.gs)).
+This example generates default 12-column with `px` (similar to [960.gs][4]).
 
 ### EM
 
@@ -48,3 +58,9 @@ LICENSE
 -------
 
 MIT: http://hail2u.mit-license.org/2012
+
+
+[1]: http://sass-lang.com/
+[2]: https://github.com/hail2u/scss-column-equation/archive/master.zip
+[3]: http://bower.io/
+[4]: http://960.gs
