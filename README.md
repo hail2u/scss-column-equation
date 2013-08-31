@@ -10,7 +10,7 @@ INSTALLATION
 Three options are available:
 
   1. [Download package][2]
-  2. Clone with Git: $ git clone https://github.com/hail2u/scss-column-equation.git
+  2. Clone with Git: `$ git clone https://github.com/hail2u/scss-column-equation.git`
   3. Install with [Bower][3]: `$ bower install --save-dev scss-column-equation`
 
 
