@@ -52,7 +52,7 @@ h1 {
 }
 
 // Default
-@import "sce.scss";
+@import "sce";
 
 $colnum: 12;
 
@@ -77,7 +77,7 @@ $colnum: 12;
 $sce_column: 3.5em;
 $sce_gutter: 1em;
 
-@import "sce.scss";
+@import "sce";
 
 $colnum: 12;
 
@@ -101,13 +101,14 @@ $colnum: 12;
 $sce_column: 4.25%;
 $sce_gutter: 2%;
 
-@import "sce.scss";
+@import "sce";
 
 $colnum: 16;
 
 .percentage {
   .sce-wrapper {
     width: nth($sce_colwrap, $colnum);
+    max-width: 960px;
   }
 
   @for $i from 1 through $colnum {

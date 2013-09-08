@@ -1,7 +1,6 @@
-// SCSS Column Eqaution | http://hail2u.mit-license.org/2012
 $sce_column: 60px !default;
 $sce_gutter: ($sce_column / 3) !default;
-$sce_gap:    ($sce_gutter / 2);
+$sce_gap: ($sce_gutter / 2);
 
 $sce_colspan: ();
 $sce_colwrap: ();
@@ -12,15 +11,15 @@ $sce_colwrap: ();
   $sce_colwrap: append($sce_colwrap, ($sce_gap + $w + $sce_gap));
 }
 
-$sce_colspan1:  nth($sce_colspan,  1);
-$sce_colspan2:  nth($sce_colspan,  2);
-$sce_colspan3:  nth($sce_colspan,  3);
-$sce_colspan4:  nth($sce_colspan,  4);
-$sce_colspan5:  nth($sce_colspan,  5);
-$sce_colspan6:  nth($sce_colspan,  6);
-$sce_colspan7:  nth($sce_colspan,  7);
-$sce_colspan8:  nth($sce_colspan,  8);
-$sce_colspan9:  nth($sce_colspan,  9);
+$sce_colspan1: nth($sce_colspan, 1);
+$sce_colspan2: nth($sce_colspan, 2);
+$sce_colspan3: nth($sce_colspan, 3);
+$sce_colspan4: nth($sce_colspan, 4);
+$sce_colspan5: nth($sce_colspan, 5);
+$sce_colspan6: nth($sce_colspan, 6);
+$sce_colspan7: nth($sce_colspan, 7);
+$sce_colspan8: nth($sce_colspan, 8);
+$sce_colspan9: nth($sce_colspan, 9);
 $sce_colspan10: nth($sce_colspan, 10);
 $sce_colspan11: nth($sce_colspan, 11);
 $sce_colspan12: nth($sce_colspan, 12);
@@ -29,15 +28,15 @@ $sce_colspan14: nth($sce_colspan, 14);
 $sce_colspan15: nth($sce_colspan, 15);
 $sce_colspan16: nth($sce_colspan, 16);
 
-$sce_colwrap1:  nth($sce_colwrap,  1);
-$sce_colwrap2:  nth($sce_colwrap,  2);
-$sce_colwrap3:  nth($sce_colwrap,  3);
-$sce_colwrap4:  nth($sce_colwrap,  4);
-$sce_colwrap5:  nth($sce_colwrap,  5);
-$sce_colwrap6:  nth($sce_colwrap,  6);
-$sce_colwrap7:  nth($sce_colwrap,  7);
-$sce_colwrap8:  nth($sce_colwrap,  8);
-$sce_colwrap9:  nth($sce_colwrap,  9);
+$sce_colwrap1: nth($sce_colwrap, 1);
+$sce_colwrap2: nth($sce_colwrap, 2);
+$sce_colwrap3: nth($sce_colwrap, 3);
+$sce_colwrap4: nth($sce_colwrap, 4);
+$sce_colwrap5: nth($sce_colwrap, 5);
+$sce_colwrap6: nth($sce_colwrap, 6);
+$sce_colwrap7: nth($sce_colwrap, 7);
+$sce_colwrap8: nth($sce_colwrap, 8);
+$sce_colwrap9: nth($sce_colwrap, 9);
 $sce_colwrap10: nth($sce_colwrap, 10);
 $sce_colwrap11: nth($sce_colwrap, 11);
 $sce_colwrap12: nth($sce_colwrap, 12);
