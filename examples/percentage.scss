@@ -1,12 +1,13 @@
 $sce_column: 4.25%;
 $sce_gutter: 2%;
 
-@import "../sce.scss";
+@import "../sce";
 
 $colnum: 16;
 
 .sce-wrapper {
   width: nth($sce_colwrap, $colnum);
+  max-width: 960px;
 }
 
 @for $i from 1 through $colnum {
