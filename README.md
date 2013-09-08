@@ -18,7 +18,7 @@ USAGE
 -----
 
   1. Define basic variables: `$sce_column` and `$sce_gutter`
-  2. Import `sce.scss` via `@import`
+  2. Import `_sce.scss` via `@import`
   3. Create column definition with generated variables
 
 
@@ -63,4 +63,4 @@ MIT: http://hail2u.mit-license.org/2012
 [1]: http://sass-lang.com/
 [2]: https://github.com/hail2u/scss-column-equation/archive/master.zip
 [3]: http://bower.io/
-[4]: http://960.gs
+[4]: http://960.gs/
