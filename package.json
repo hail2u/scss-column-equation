@@ -1,0 +1,31 @@
+{
+  "name": "hail2u-scss-column-equation",
+  "description": "Generate variables for CSS column layout, the Sassy way.",
+  "version": "1.0.0",
+  "author": "Kyo Nagashima <hail2u@gmail.com> (https://kyonagashima.com/)",
+  "bugs": {
+    "url": "https://github.com/hail2u/scss-column-equation/issues"
+  },
+  "files": [
+    "README.md",
+    "_sce.scss",
+    "package.json"
+  ],
+  "homepage": "https://github.com/hail2u/scss-column-equation",
+  "keywords": [
+    "sass",
+    "scss",
+    "partial",
+    "css",
+    "column"
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "http://hail2u.mit-license.org/2014"
+  },
+  "main": "_sce.scss",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hail2u/scss-column-equation.git"
+  }
+}
