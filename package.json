@@ -19,10 +19,7 @@
     "css",
     "column"
   ],
-  "license": {
-    "type": "MIT",
-    "url": "http://hail2u.mit-license.org/2012"
-  },
+  "license": "MIT",
   "main": "_sce.scss",
   "repository": {
     "type": "git",
