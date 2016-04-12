@@ -6,18 +6,13 @@
   "bugs": {
     "url": "https://github.com/hail2u/scss-column-equation/issues"
   },
-  "files": [
-    "README.md",
-    "_sce.scss",
-    "package.json"
-  ],
   "homepage": "https://github.com/hail2u/scss-column-equation",
   "keywords": [
-    "sass",
-    "scss",
-    "partial",
+    "column",
     "css",
-    "column"
+    "partial",
+    "sass",
+    "scss"
   ],
   "license": "MIT",
   "main": "_sce.scss",
